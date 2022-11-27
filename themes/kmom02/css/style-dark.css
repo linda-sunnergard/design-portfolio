@@ -6619,11 +6619,11 @@ pre code {
   }
 }
 body {
-  background-color: #84c6e6;
+  background-color: #2b4766;
 }
 
 * {
-  color: #000;
+  color: #fff;
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
@@ -6640,10 +6640,10 @@ h3,
 h4,
 h5,
 h6 {
+  color: #1561b3;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #3a5766;
 }
 
 ol,
@@ -6674,8 +6674,8 @@ body {
 
 .header,
 .footer {
+  background-color: #0d3b6b;
   flex: 0 0 auto;
-  background-color: #6699b3;
 }
 
 /* Header */
@@ -6710,7 +6710,7 @@ body {
 }
 
 .title * {
-  color: #3a5766;
+  color: #1561b3;
 }
 
 .title p {
@@ -6725,7 +6725,7 @@ body {
 }
 
 .footer a {
-  color: #cbe0ea;
+  color: #1c7de6;
   text-decoration: none;
 }
 
@@ -6737,7 +6737,7 @@ body {
 body {
   font-family: sans-serif;
   line-height: 1.5rem;
-  color: #000;
+  color: #fff;
 }
 
 p,
@@ -6761,5 +6761,5 @@ img {
 }
 
 .nav a {
-  color: #000;
+  color: #fff;
 }

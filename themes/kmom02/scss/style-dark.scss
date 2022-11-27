@@ -15,11 +15,11 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
-    background-color: $background-color;
+    background-color: $background-alternative-color;
 }
 
 * {
-    color: $font-color;
+    color: $font-alternative-color;
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
@@ -36,10 +36,10 @@ h3,
 h4,
 h5,
 h6 {
+    color: $header-alternative-color;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: $header-color;
 }
 
 ol,
@@ -71,8 +71,8 @@ body {
 
 .header,
 .footer {
+    background-color: $accent-alternative-color;
     flex: 0 0 auto;
-    background-color: $accent-color;
 }
 
 /* Header */
@@ -112,7 +112,7 @@ body {
 }
 
 .title * {
-    color: $header-color;
+    color: $header-alternative-color;
 }
 
 .title p {
@@ -128,7 +128,7 @@ body {
 }
 
 .footer a {
-    color: $accent-color-extra;
+    color: $accent-alternative-color-extra;
     text-decoration: none;
 }
 
@@ -141,7 +141,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: $font-color;
+    color: $font-alternative-color;
 }
 
 p,
@@ -165,5 +165,5 @@ img {
 }
 
 .nav a {
-    color: $font-color;
+    color: $font-alternative-color;
 }
