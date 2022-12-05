@@ -6753,6 +6753,7 @@ dd {
 img {
   max-width: 100%;
   max-height: 100%;
+  margin-bottom: 2em;
 }
 
 .meimg {
@@ -6762,4 +6763,11 @@ img {
 
 .nav a {
   color: #fff;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
 }
