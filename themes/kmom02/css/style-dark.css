@@ -6516,10 +6516,12 @@ pre code {
   display: grid;
 }
 
-.wrapper {
-  gap: 2em 2em;
+.grid {
+  gap: 1em 1em;
   margin: 0 auto;
-  max-width: 960px;
+  padding-left: 2em;
+  padding-right: 2em;
+  min-width: 700px;
 }
 
 .not-side {
@@ -6535,9 +6537,7 @@ pre code {
 }
 
 .landingpage {
-  gap: 2em 2em;
-  max-width: 500px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .landingpage h1 {
@@ -6549,9 +6549,7 @@ pre code {
 .landingpage div {
   justify-self: center;
   justify-content: center;
-  font-size: x-large;
   width: 100%;
-  height: 100%;
 }
 
 .landingpage p {
@@ -6561,50 +6559,49 @@ pre code {
 .css {
   grid-column: 1/span 1;
   grid-row: 2/span 1;
-  background-color: #eee8aa;
+  background-color: #c77895;
 }
 
 .git {
   grid-column: 2/span 2;
   grid-row: 2/span 1;
-  background-color: #008000;
+  background-color: #b49ca6;
 }
 
 .html {
   grid-column: 1/span 2;
   grid-row: 3/span 1;
-  background-color: #5f9ea0;
+  background-color: #e4c4cb;
 }
 
 .javascript {
   grid-column: 3/span 1;
   grid-row: 3/span 1;
-  background-color: #4b0082;
+  background-color: #c77895;
 }
 
 .php {
   grid-column: 1/span 3;
   grid-row: 4/span 1;
-  background-color: #b22222;
+  background-color: #b49ca6;
 }
 
 .python {
   grid-column: 1/span 1;
   grid-row: 5/span 1;
-  background-color: #ff69b4;
+  background-color: #e4c4cb;
 }
 
 .sqlite {
   grid-column: 2/span 2;
   grid-row: 5/span 1;
-  background-color: #789;
+  background-color: #c77895;
 }
 
 @media screen and (max-width: 960px) {
   .not-side {
     grid-column: 1/2;
     grid-row: 1/3;
-    max-width: 90%;
     justify-self: center;
   }
   .side-bar {
@@ -6640,7 +6637,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1561b3;
+  color: #fff;
   font-family: "Open Sans", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
@@ -6710,7 +6707,7 @@ body {
 }
 
 .title * {
-  color: #1561b3;
+  color: #fff;
 }
 
 .title p {
@@ -6770,4 +6767,18 @@ embed,
 object,
 video {
   max-width: 100%;
+}
+
+.css a,
+.git a,
+.html a,
+.javascript a,
+.php a,
+.python a,
+.sqlite a {
+  color: #222;
+}
+
+code {
+  color: #222;
 }

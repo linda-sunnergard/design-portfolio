@@ -33,7 +33,7 @@ Google Pagespeed användes för att få ytterligare information om olika typer a
 Resultat
 -----------------------
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmEgdI__LK8zu1lS3hlJ38MfzI_jxE7KoQgaLzt6lZw1llalojam5CUtlkPHV2PhsW-6BEhaL1p_q4/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmEgdI__LK8zu1lS3hlJ38MfzI_jxE7KoQgaLzt6lZw1llalojam5CUtlkPHV2PhsW-6BEhaL1p_q4/pubhtml?widget=true&amp;headers=false" title="Resultat"></iframe>
 
 ### DN
 

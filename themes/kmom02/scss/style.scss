@@ -16,11 +16,13 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 body {
-    background-color: $background-color;
+    background-color: $body-color;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
-    color: $font-color;
+    color: $font-color-extra;
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
@@ -40,7 +42,8 @@ h6 {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: $header-color;
+    color: $accent-color;
+    text-align: center;
 }
 
 ol,
@@ -57,23 +60,19 @@ body {
     height: 100%;
 }
 
-/* Placement */
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
 .main {
     flex: 1 0 auto;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: $background-color;
+    border-left: 1px dotted $accent-color;
+    border-right: 1px dotted $accent-color;
 }
 
 .header,
 .footer {
     flex: 0 0 auto;
-    background-color: $accent-color;
+    background-color: $header-color;
 }
 
 /* Header */
@@ -82,6 +81,7 @@ body {
 .site-header {
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px dotted $accent-color;
 }
 
 /* Title */
@@ -110,10 +110,11 @@ body {
 .logo {
     height: 200px;
     width: auto;
+    padding-left: 2em;
 }
 
 .title * {
-    color: $header-color;
+    color: $font-color-extra;
 }
 
 .title p {
@@ -125,7 +126,7 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    border-top: 1px dotted $accent-color;
 }
 
 .footer a {
@@ -153,6 +154,8 @@ dd {
     text-align: justify;
     overflow-wrap: break-word;
     word-wrap: break-word;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
 }
 
 img {
@@ -167,7 +170,7 @@ img {
 }
 
 .nav a {
-    color: $font-color;
+    color: $font-color-extra;
 }
 
 img,

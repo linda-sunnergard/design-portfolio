@@ -21,6 +21,6 @@ Rapporter och analyser
 
 <div markdown="1">
 
-[Design](analysis/03_designl)
+[Design](analysis/03_design_principles)
 
 </div>

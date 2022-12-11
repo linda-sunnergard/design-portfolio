@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: $header-alternative-color;
+    color: $font-alternative-color;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 0.6em;
     font-weight: bold;
@@ -112,7 +112,7 @@ body {
 }
 
 .title * {
-    color: $header-alternative-color;
+    color: $font-alternative-color;
 }
 
 .title p {
@@ -174,4 +174,19 @@ embed,
 object,
 video {
     max-width: 100%;
+}
+
+
+.css a,
+.git a,
+.html a,
+.javascript a,
+.php a,
+.python a,
+.sqlite a {
+    color: $font-color-extra;
+}
+
+code {
+    color: $font-color-extra;
 }
